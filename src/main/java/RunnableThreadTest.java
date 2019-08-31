@@ -18,6 +18,7 @@ public class RunnableThreadTest implements Runnable{
                 RunnableThreadTest threadTest = new RunnableThreadTest();
                 new Thread(threadTest, "111").start();
                 new Thread(threadTest, "222").start();
+                new Thread(threadTest, "333").start();
             }
         }
     }

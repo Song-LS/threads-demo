@@ -18,11 +18,11 @@ public class ThreadPool {
         // 按顺序来执行线程任务 但是不同于单线程，这个线程池只是只能存在一个线程，这个线程死后另外一个线程会补上
         ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
         for (int i=0; i<10; i++) {
-            final int index = i;
+            final int index  = i;
             newSingleThreadExecutor.execute(new Runnable() {
                 @Override
                 public void run() {
-//                    System.out.println(Thread.currentThread().getName()+ " " + index);
+                    System.out.println(Thread.currentThread().getName()+ " " + index);
                 }
             });
         }
@@ -30,7 +30,7 @@ public class ThreadPool {
         ////////////////////////////////////////
 
         // 创建一个定长的线程池，也是根据需要去调用线程，比如线程定为100个，而循环只有10个，那么也只会用到前10个进程。
-        ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(10);
+        ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(100);
         for (int i=0; i<10; i++) {
             final int index = i;
             newFixedThreadPool.execute(new Runnable() {
@@ -49,7 +49,7 @@ public class ThreadPool {
         for (int i=0; i<10; i++) {
             final int index = i;
             try {
-                Thread.sleep(100);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -69,7 +69,7 @@ public class ThreadPool {
             newScheduledThreadPool.schedule(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println(Thread.currentThread().getName() + "delay 3");
+//                    System.out.println(Thread.currentThread().getName() + "delay 3");
                 }
             }, 3, TimeUnit.SECONDS);
         }
