@@ -21,8 +21,8 @@ public class MyThread extends Thread {
     public void run() {
         System.out.println(this.getName() + name + "is waiting");
         try {
-            synchronized (co) {
-                co.wait();
+            synchronized (co) { // 将改对象锁上
+                co.wait(); // 线程休眠
             }
             System.out.println(name + "has bean notified");
         } catch (InterruptedException e) {

@@ -25,8 +25,8 @@ public class WaitAndNotify {
             TimeUnit.SECONDS.sleep(2);
             System.out.println("-----  main thread notified------");
             synchronized (co) {
-//                co.notify();
-                co.notifyAll();
+                co.notify(); // 唤醒单个线程
+//                co.notifyAll(); // 唤醒此对象上的所有线程
             }
             TimeUnit.SECONDS.sleep(2);
             System.out.println("------ main thread end------");
