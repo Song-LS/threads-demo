@@ -19,9 +19,9 @@ public class MyThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println(this.getName()+name  + "is waiting");
+        System.out.println(this.getName() + name + "is waiting");
         try {
-            synchronized (co ) {
+            synchronized (co) {
                 co.wait();
             }
             System.out.println(name + "has bean notified");
@@ -34,7 +34,7 @@ public class MyThread extends Thread {
         Date date = new Date(System.currentTimeMillis());
         while (true) {
             System.out.println(new SimpleDateFormat("HH:mm:ss").format(date));
-            date = new Date(date.getTime()+1000);
+            date = new Date(date.getTime() + 1000);
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {

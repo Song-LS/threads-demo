@@ -2,25 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9077fdf4-2ca8-40e7-9f3e-edcf702f09b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/CallableThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/FirstThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/RunnableThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadLocalTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadLocalTest$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadLocalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/WaitAndNotify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadLocalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/FirstThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/FirstThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/RunnableThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/RunnableThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/threads-demo/main/java/ThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CallableThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CallableThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FirstThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RunnableThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunnableThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/threads-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaitAndNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaitAndNotify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +32,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ThreadLocalTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CallableThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="682">
+              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
-                <element signature="e#508#509#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +48,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaitAndNotify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="308">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RunnableThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -61,50 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RunnableThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MyThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FirstThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="9" selection-start-line="18" selection-start-column="25" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CallableThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -138,11 +113,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/FirstThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaitAndNotified.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaitAndNotify.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CallableThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/RunnableThreadTest.java" />
       </list>
     </option>
@@ -171,6 +146,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,6 +296,8 @@
       <workItem from="1566780077351" duration="8478000" />
       <workItem from="1566866182053" duration="12887000" />
       <workItem from="1567058803448" duration="3622000" />
+      <workItem from="1567212590950" duration="1101000" />
+      <workItem from="1577446248893" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="创建线程和线程池">
       <created>1566441210763</created>
@@ -329,16 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1566441210763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="线程">
+      <created>1567212648940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567212648940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78375000" />
+    <option name="totallyTimeSpent" value="79964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.1576087" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.22173913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -355,9 +339,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32826087" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.8869565" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.14239131" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32934782" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,7 +359,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建线程和线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建线程和线程池" />
+    <MESSAGE value="线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/main/Test.java" />
@@ -412,30 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WaitAndNotify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FirstThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -443,20 +405,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CallableThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="682">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WaitAndNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/song-ss/java1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/song-ss/java1.8/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RunnableThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="396">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

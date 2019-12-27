@@ -11,8 +11,8 @@ public class WaitAndNotify {
         Object co = new Object();
         System.out.println(co);
 
-        for (int i=0; i< 10; i++) {
-            MyThread myThread = new MyThread("thread-"  + i, co);
+        for (int i = 0; i < 10; i++) {
+            MyThread myThread = new MyThread("thread-" + i, co);
             try {
                 Thread.sleep(2);
             } catch (InterruptedException e) {
@@ -24,7 +24,7 @@ public class WaitAndNotify {
         try {
             TimeUnit.SECONDS.sleep(2);
             System.out.println("-----  main thread notified------");
-            synchronized (co ){
+            synchronized (co) {
 //                co.notify();
                 co.notifyAll();
             }

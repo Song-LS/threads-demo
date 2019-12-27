@@ -13,7 +13,7 @@ public class ThreadLocalTest {
     };
 
     public static void main(String[] args) {
-        for (int i=0; i<3; i++) {
+        for (int i = 0; i < 3; i++) {
             Thread t = new Thread() {
                 @Override
                 public void run() {
@@ -25,7 +25,7 @@ public class ThreadLocalTest {
     }
 
     private static void add10ByThreadLocal() {
-        for (int i=0; i<5; i++) {
+        for (int i = 0; i < 5; i++) {
             Integer n = THREAD_LOCAL_NUM.get();
             n += 1;
             THREAD_LOCAL_NUM.set(n);

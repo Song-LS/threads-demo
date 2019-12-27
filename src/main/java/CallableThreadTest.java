@@ -12,10 +12,10 @@ public class CallableThreadTest implements Callable<Integer> {
     public static void main(String[] args) {
         CallableThreadTest callableThreadTest = new CallableThreadTest();
         FutureTask<Integer> integerFutureTask = new FutureTask<>(callableThreadTest);
-        for (int i=0; i<10; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(Thread.currentThread().getName() + " " + i);
-            if (i ==5) {
-                new Thread(integerFutureTask , "返回值").start();
+            if (i == 5) {
+                new Thread(integerFutureTask, "返回值").start();
             }
         }
         try {
@@ -30,8 +30,8 @@ public class CallableThreadTest implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        int i=0;
-        for (;i<10;i++) {
+        int i = 0;
+        for (; i < 10; i++) {
             System.out.println(Thread.currentThread().getName() + " " + i);
         }
         return i;
