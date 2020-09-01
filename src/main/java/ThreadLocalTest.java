@@ -35,5 +35,4 @@ public class ThreadLocalTest {
         }
         System.out.println("sss");
     }
-
 }
