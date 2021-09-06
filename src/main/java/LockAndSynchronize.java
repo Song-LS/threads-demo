@@ -4,8 +4,10 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Lock和synchronize区别
- * lock：重入锁，是一个接口-实现类来为它提供各种功能，加锁的关键代码为大体为Lock和unLock，可调用ulock方法去释放锁比synchronized更灵活
- * synchronize：偏向锁，是java中的一个关键字，属于JVM会从在虚拟机指令层面加锁，不能指定解锁操作，执行完代码块的对象会自动释放锁
+ * lock：重入锁，是一个接口-实现类来为它提供各种功能，加锁的关键代码为大体为Lock和unLock，
+ * 可调用ulock方法去释放锁比synchronized更灵活
+ * synchronize：偏向锁，是java中的一个关键字，属于JVM会从在虚拟机指令层面加锁，
+ * 不能指定解锁操作，执行完代码块的对象会自动释放锁
  * @author sls
  **/
 public class LockAndSynchronize implements Runnable{
